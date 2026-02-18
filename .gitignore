@@ -1,0 +1,73 @@
+# =========================================================================
+# JAVA ENTERPRISE MONOREPO GITIGNORE | FULL STACK EDITION
+# =========================================================================
+
+# -------------------------------------------------------------------------
+# 1. MÁQUINA VIRTUAL DE JAVA (JVM)
+# Generado por el compilador 'javac' al traducir tu código.
+# -------------------------------------------------------------------------
+*.class
+*.jar
+*.war
+hs_err_pid*
+
+# -------------------------------------------------------------------------
+# 2. MOTORES DE CONSTRUCCIÓN (BUILD TOOLS)
+# Carpetas que generan automáticamente Maven, Gradle y Ant al compilar.
+# Al quitar la barra inicial, Git las bloquea en cualquier subcarpeta.
+# -------------------------------------------------------------------------
+# Generado por Maven (Estándar mundial y usado por TMCBeans actualmente)
+target/
+
+# Generado por Ant (Usado por NetBeans en proyectos universitarios clásicos)
+build/
+dist/
+
+# Generado por Gradle (Usado por JetBrains Academy / Hyperskill)
+.gradle/
+!gradle/wrapper/gradle-wrapper.jar
+
+# -------------------------------------------------------------------------
+# 3. ENTORNOS DE DESARROLLO (IDEs) & MOOC
+# Metadatos locales de tu máquina, caché visual y plugins universitarios.
+# -------------------------------------------------------------------------
+# IntelliJ IDEA (Archivos de caché, configuración visual y salida de compilación)
+.idea/
+*.iml
+*.iws
+out/
+
+# NetBeans (Solo bloqueamos la subcarpeta 'private' que guarda tus rutas locales)
+# El resto de 'nbproject' SÍ se sube porque define el proyecto.
+nbproject/private/
+
+# TMCBeans (Archivo oculto de sincronización con el servidor de la Univ. Helsinki)
+.tmcproject.yml
+# Metadatos de sincronización del plugin TMC (v2026)
+tmcproject.json
+
+# -------------------------------------------------------------------------
+# 4. CAPA FULL STACK (FRONTEND WEB) & NODE.JS
+# Basura generada si en el futuro añades frameworks web como React o Angular.
+# -------------------------------------------------------------------------
+node_modules/
+.next/
+.angular/
+
+# -------------------------------------------------------------------------
+# 5. SEGURIDAD Y CREDENCIALES (CRÍTICO)
+# Archivos donde en el futuro guardarás contraseñas reales de bases de datos.
+# -------------------------------------------------------------------------
+.env
+*.pem
+*.key
+application-secret.properties
+
+# -------------------------------------------------------------------------
+# 6. SISTEMAS OPERATIVOS
+# Caché visual de carpetas que Windows y macOS generan en segundo plano.
+# -------------------------------------------------------------------------
+.DS_Store
+Thumbs.db
+ehthumbs.db
+$RECYCLE.BIN/
