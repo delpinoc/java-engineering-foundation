@@ -5,5 +5,9 @@ files:
     learner_created: false
 feedback_link: https://hyperskill.org/learn/step/39424#comment
 status: Solved
+feedback:
+  message: "<html>Now this Java program works! \nConsider finding a buddy in our Discord\
+    \ to help each other decipher errors and learn faster.</html>"
+  time: "Thu, 19 Feb 2026 13:38:47 UTC"
 record: -1
 submission_language: java17
