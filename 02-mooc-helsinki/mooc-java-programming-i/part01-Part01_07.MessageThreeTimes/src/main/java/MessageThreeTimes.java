@@ -8,6 +8,10 @@ public class MessageThreeTimes {
 
         System.out.println("Write a message:");
         // Write your program here
+        String greeting = scanner.nextLine();
+        System.out.println(greeting);
+        System.out.println(greeting);
+        System.out.println(greeting);
 
     }
 }
