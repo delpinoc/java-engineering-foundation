@@ -7,5 +7,17 @@ public class FromWhereToWhere {
         Scanner scanner = new Scanner(System.in);
 
         // Write your program here
+        System.out.println("Where to?");
+        int upperLimit = Integer.valueOf(scanner.nextLine());
+
+        System.out.println("Where from?");
+        int startingPoint = Integer.valueOf(scanner.nextLine());
+
+        if (startingPoint <= upperLimit) {
+            for (int i = startingPoint; i <= upperLimit; i++) {
+                System.out.println(i);
+            }
+        }
+
     }
 }
