@@ -29,11 +29,7 @@ public class LiquidContainers {
                 int freeSpace = MAX_LITROS - first;
 
                 if (amount > 0) {
-                    if (amount > freeSpace) {
-                        first = MAX_LITROS;
-                    } else {
-                        first += amount;
-                    }
+                    
                 }
 
             } else if (command.equals("move")) {
